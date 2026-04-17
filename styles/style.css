@@ -1,1 +1,342 @@
-/* место для вашего кода */
+
+.header {
+    font-weight: 400;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    margin: 133px 50px 96px 50px;
+}
+
+.logo__img {
+    width: 148px;
+    height: 105px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    font-style: normal; 
+    margin-right: 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style-type: circle;  
+}
+
+.nav-item-main {
+    list-style-type: none;
+}
+
+.nav-item-main a {
+    text-decoration: none;
+}
+
+.contacts-link {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.cover {
+    margin: 0;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    position: relative;
+    min-height: 757px;     
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 60%;
+    z-index: 1;
+}
+.cover-title {
+    display: grid;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 30%;
+    color: white;
+    text-transform: uppercase;
+    grid-template-rows: repeat(3, 100px);
+    gap: 35px;
+    width: 100%;
+    z-index: 2;
+    padding: 165px 41px;
+}
+
+
+.ono {
+}
+
+.tebe {
+      text-align: center;
+}
+
+.nado {
+    text-align: right;
+}
+
+.cover-description {
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    gap: 30px;
+    z-index: 2;
+    align-items: center;
+    width: 1000px;
+    height: 51px;
+    margin-bottom: px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+.cover-description-text {
+    word-spacing: 90%;
+    
+ 
+}
+
+.cover-description-button{
+    font: inherit;
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+   
+}
+
+.lots {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.lots-title {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.lots-card {
+    flex-direction: column;
+    display: flex;
+    padding: 25px;
+    background-size: cover;
+}
+
+
+.lots-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+ 
+.lots-list a {
+    display: flex;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 44px;
+    margin-right: 40px;
+    margin-bottom: 34px;
+    z-index: 2;
+}
+
+.cover-description-button{
+    font: inherit;
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.text {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100%;
+    align-self: flex-end;
+    z-index: 2;
+}
+
+    
+.lots-card-film {
+    flex-direction: column;
+    background-image: url('../images/card-lot-01.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding-bottom: 2rem;
+    position: relative;
+}
+    
+.lots-card-book {
+    flex-direction: column;
+    background-image: url('../images/card-lot-02.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.lots-card-picture {
+    flex-direction: column;
+    background-image: url('../images/card-lot-03.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.look_more {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about {
+    display: grid;
+    column-gap: 73px;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 8rem 0rem;
+}
+
+.logo-circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.logo_img_white {
+    width: 148px;
+    height: 114px;
+}
+
+.about-about-column-first {
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}
+
+.about-about-column-second {
+    display: flex;
+    align-items: center;
+}
+
+.about-title {
+ font-weight: 700;
+ text-transform: uppercase;
+}
+
+.about-description-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 3rem;
+}
+
+.footer {
+    font-weight: 400;
+    font-size: 18px;
+    display: grid;
+    height: 180px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    margin: auto;   
+    justify-content: space-between;
+    padding-top: 4rem;   
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    padding-left: 47px;
+    font-style: normal;
+    
+}
+
+.footer_menu {
+    display: flex;
+    justify-self: center;
+
+
+}
+
+.footer_menu-list {
+    list-style-type: none;  
+}
+
+.footer_menu-list-item {
+ display: flex;
+ justify-self: center;
+}
+
+.footer_menu-list-item-active a {
+    display: flex;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.footer_social-list {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style-type: none;
+    justify-self: end;
+    justify-self: end;
+    padding-right: 3rem; 
+}
+
+.footer_social-icon {
+   width: 48px;
+}
