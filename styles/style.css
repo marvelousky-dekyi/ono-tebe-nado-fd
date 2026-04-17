@@ -62,6 +62,7 @@
     opacity: 60%;
     z-index: 1;
 }
+
 .cover-title {
     display: grid;
     font-weight: bold;
@@ -75,7 +76,6 @@
     z-index: 2;
     padding: 165px 41px;
 }
-
 
 .ono {
 }
@@ -107,9 +107,7 @@
 }
 
 .cover-description-text {
-    word-spacing: 90%;
-    
- 
+    word-spacing: 90%;  
 }
 
 .cover-description-button{
@@ -119,8 +117,7 @@
     border: 1px solid #fff;
     padding: 1rem 2rem;
     white-space: nowrap;
-    text-transform: uppercase;
-   
+    text-transform: uppercase; 
 }
 
 .lots {
@@ -301,15 +298,12 @@
     flex-direction: column;
     justify-self: start;
     padding-left: 47px;
-    font-style: normal;
-    
+    font-style: normal;   
 }
 
 .footer_menu {
     display: flex;
     justify-self: center;
-
-
 }
 
 .footer_menu-list {
