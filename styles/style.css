@@ -164,16 +164,6 @@
     z-index: 2;
 }
 
-.cover-description-button{
-    font: inherit;
-    background: transparent;
-    color: white;
-    border: 1px solid #fff;
-    padding: 1rem 2rem;
-    white-space: nowrap;
-    text-transform: uppercase;
-}
-
 .text {
     display: flex;
     font-weight: 400;
@@ -185,8 +175,7 @@
     align-self: flex-end;
     z-index: 2;
 }
-
-    
+   
 .lots-card-film {
     flex-direction: column;
     background-image: url('../images/card-lot-01.jpg');
@@ -326,7 +315,6 @@
     flex-direction: row;
     gap: 3rem;
     list-style-type: none;
-    justify-self: end;
     justify-self: end;
     padding-right: 3rem; 
 }
