@@ -132,6 +132,10 @@
   list-style: none;
 }
 
+.lots-list a {
+  text-decoration: none;
+}
+
 .lots-card-link-title {
   display: flex;
   color: white;
@@ -191,7 +195,7 @@
   font-weight: bold;
   font-size: 26px;
   padding: 130px 0 0 9px;
-  grid-template-areas:"logo header" ". text";
+  grid-template-areas: "logo header" ". text";
 }
 
 .logo-circle {
@@ -290,4 +294,8 @@
 }
 .active {
   text-decoration: none;
+}
+
+.nav-item:first-child {
+  list-style: none;
 }
